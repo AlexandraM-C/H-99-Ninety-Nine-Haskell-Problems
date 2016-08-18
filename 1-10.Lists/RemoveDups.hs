@@ -2,6 +2,7 @@
 	8. Eliminate consecutive duplicates of list elements.
 -}
 
+module RemoveDups where
 
 {-
 	1st implementation: stack recursive

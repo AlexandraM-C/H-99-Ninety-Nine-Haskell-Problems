@@ -2,6 +2,7 @@
 	4. Find the number of elements of a list.
 -}
 
+module ListLength where
 
 {-
 	1sf implementation: using an auxiliary tail recursive

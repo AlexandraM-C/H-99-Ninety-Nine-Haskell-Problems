@@ -2,6 +2,7 @@
 	1. Find the last element of a list.
  -}
 
+module LastElt where
 
 {-
 	1st implementation: tail-recursive
@@ -29,4 +30,3 @@ last2 xs = xs !! (length xs - 1)
 
 last3 :: [a] -> a
 last3 = head . reverse
-

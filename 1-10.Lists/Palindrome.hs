@@ -3,6 +3,7 @@
 	forward or backward; e.g. (x a m a x).
 -}
 
+module Palindrome where
 
 {-
 	1st implementation: tail recursive

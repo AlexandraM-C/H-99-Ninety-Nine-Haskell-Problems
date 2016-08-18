@@ -2,10 +2,11 @@
 	7. Flatten a nested list structure.
 -}
 
+module ListFlatten where
 
 {-
 	Defining the data type, for in Haskell all elements
-	of list must have the same type.
+	of a list must have the same type.
 -}
 
 data NestedList a = Elem a | List [NestedList a]
@@ -28,4 +29,3 @@ flatten1 (List xs) = foldl (\acc e -> acc ++ flatten1 e) [] xs
 flatten2 :: NestedList a -> [a]
 flatten2 (Elem x) = [x]
 flatten2 (List xs) = concatMap flatten2 xs
-

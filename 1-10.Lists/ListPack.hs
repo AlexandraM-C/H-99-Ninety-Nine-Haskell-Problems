@@ -3,6 +3,7 @@
 	contains repeated elements they should be placed in separate sublists.
 -}
 
+module ListPack where
 
 {-
 	1sf implementation: stack recursive - at every call, it forms
